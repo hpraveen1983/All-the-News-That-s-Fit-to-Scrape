@@ -15,7 +15,7 @@ const mongoose = require("mongoose");
 const db = require("./models");
 
 // server port number
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 8080;
 
 // Load routes
 const index = require("./routes/index");
